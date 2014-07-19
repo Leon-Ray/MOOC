@@ -31,7 +31,7 @@ rankall <- function(outcome, num = "best"){
       "<NA>"
     }
     sorted_df <- small_df[order(small_df[, 2], small_df[, 1]), ]
-    sorted_df[num, 1]    
+    return(sorted_df[num, 1])    
   }
   
   #split the dataset by state and apply find_hospital to each group
@@ -42,5 +42,5 @@ rankall <- function(outcome, num = "best"){
   final_df <- cbind(semi_final_df, row.names(semi_final_df))
   colnames(final_df)[2] <- "state"
   
-  final_df
+  return(final_df)
 }
