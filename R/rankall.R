@@ -43,8 +43,3 @@ rankall <- function(outcome, num = "best"){
   colnames(final_df)[2] <- "state"
   
   return(final_df)
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 9183180ac0ec64b463d939763fa96da5845a8bae
