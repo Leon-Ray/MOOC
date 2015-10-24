@@ -16,4 +16,4 @@ The assignments involved creating a simple approach to derive the sentiment of t
 
 titanic_random_forest 
 ---------------------
-The assignment involved completing the Kaggle Titanic toy competition using a Random Forest Classifier.
+The assignment involved completing the Kaggle Titanic toy competition using a random forest classifier.

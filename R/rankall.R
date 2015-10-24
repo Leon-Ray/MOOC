@@ -24,10 +24,10 @@ rankall <- function(outcome, num = "best"){
     if (num == "worst"){
       num <- len
     }
-    if (num == "best"){
+    else if (num == "best"){
       num <- 1
     }
-    if (num > len){
+    else if (num > len){
       "<NA>"
     }
     sorted_df <- small_df[order(small_df[, 2], small_df[, 1]), ]
@@ -43,4 +43,8 @@ rankall <- function(outcome, num = "best"){
   colnames(final_df)[2] <- "state"
   
   return(final_df)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9183180ac0ec64b463d939763fa96da5845a8bae
