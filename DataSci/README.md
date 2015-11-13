@@ -2,9 +2,13 @@ Purpose
 =======
 Several completed assignments from the Coursera course *Introduction to Data Science.*
 
-matrix_multiply
+matrix_multiply_MR
 ---------------
 The assignment involved multiplying two matrices using a MapReduce framework.
+
+matrix_multiply_SQL
+---------------
+The assignment involved multiplying two matrices using a SQL query.
 
 pig_histogram
 --------------
